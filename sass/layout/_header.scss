@@ -1,0 +1,20 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(to right bottom, #7ed56fbe, #28b485b0),
+    url("../img/1.jpg");
+  background-size: cover;
+  background-position: fixed;
+
+  &__text-box {
+    padding: 0 20%;
+    margin-top: 25vh;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header__text-box {
+    margin-top: 0;
+    padding: 0;
+  }
+}

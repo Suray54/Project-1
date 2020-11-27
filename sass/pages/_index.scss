@@ -1,0 +1,67 @@
+.section-about {
+  padding: 5rem 0 5rem 0;
+  & hr {
+    border: 1.5px solid $primary-color;
+    width: 10rem;
+    margin: 3rem auto;
+  }
+}
+.section-success {
+  padding: 5rem 0 15rem 0;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.section-services {
+  padding: 10rem 0 10rem 0;
+  background-color: $color-grey-light-1;
+  & hr {
+    border: 1.5px solid $primary-color;
+    width: 10rem;
+    margin: 3rem auto;
+  }
+
+  & .flex {
+    padding: 0 8%;
+  }
+}
+
+.section-values {
+  padding: 10rem 0 10rem 0;
+  font-size: 1.5rem;
+  hr {
+    border: 1.5px solid $primary-color;
+    width: 10rem;
+    margin: 3rem auto;
+  }
+
+  & .valuedata {
+    padding: 2rem 2rem;
+    text-align: center;
+    & .value-bg {
+      background-color: $color-grey-light-1;
+      padding: 4rem 4rem;
+    }
+
+    & .story__img {
+      width: 8rem;
+      margin: 2rem auto;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.section-gallery {
+  padding: 10rem 0 10rem 0;
+  background-color: $color-grey-light-1;
+  & hr {
+    border: 1.5px solid $primary-color;
+    width: 10rem;
+    margin: 3rem auto;
+  }
+}

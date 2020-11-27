@@ -1,0 +1,59 @@
+.main {
+  height: 100vh;
+  background-color: #d5adc8;
+  background-image: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  position: relative;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+}
+span.psw {
+  float: right;
+}
+
+.register,
+.reset {
+  display: none;
+}
+
+.login,
+.register,
+.reset {
+  background-color: white;
+  width: 40rem;
+  padding: 4rem;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 1.2rem 2rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  button {
+    text-transform: uppercase;
+    background-color: #d3408d;
+    color: white;
+    padding: 1.4rem 2rem;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 2px;
+  }
+
+  a:hover {
+    color: #d3408d;
+  }
+}

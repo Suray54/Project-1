@@ -1,0 +1,107 @@
+footer {
+  background-color: $color-black;
+  opacity: 0.9;
+  color: $color-white;
+  padding: 4rem 8rem 0rem 8rem;
+
+  .footer-item {
+    & .links {
+      & h1 {
+        text-align: center;
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        font-weight: 800;
+      }
+
+      ul {
+        li {
+          display: block;
+          padding: 0.5rem 20%;
+
+          a {
+            display: block;
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: $color-white;
+            line-height: 3.5rem;
+            border-bottom: 2px dotted $color-white;
+            &:hover {
+              color: $primary-dark-color;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+    & .icons {
+      margin-top: 2rem;
+    }
+
+    .fa {
+      padding: 1.2rem;
+      font-size: 2rem;
+      width: 15%;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      &:hover {
+        opacity: 0.7;
+        color: white;
+        text-decoration: none;
+      }
+
+      &-facebook {
+        background: #3b5999;
+        color: white;
+      }
+      &-twitter {
+        background: #55acee;
+        color: white;
+      }
+      &-instagram {
+        background: #125688;
+        color: white;
+      }
+      &-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+    }
+
+    & .footer-about {
+      & .footer-img {
+        width: 16rem;
+        display: block;
+      }
+      p {
+        font-size: 1.3rem;
+        text-align: justify;
+        text-transform: uppercase;
+      }
+    }
+
+    & button {
+      margin-top: 6px;
+    }
+
+    & input[type="text"] {
+      width: 38rem;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 4px;
+      font-size: 1.6rem;
+      background-color: white;
+      background-position: 1rem 1rem;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+    }
+  }
+
+  & .footer-bot {
+    padding: 5rem 0 0.5rem 0;
+
+    & .footer-bot-secondary {
+      float: right;
+    }
+  }
+}

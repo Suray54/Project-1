@@ -1,0 +1,21 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/feature-box";
+@import "components/gallery";
+
+@import "layout/nav";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/footer2";
+@import "layout/login";
+
+@import "pages/index";
+//sass --watch  sass/main.scss:css/style.css
